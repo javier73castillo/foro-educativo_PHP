@@ -1,0 +1,553 @@
+html, body, div, span, object,
+h1, h2, h3, h4, h5, p,
+a, address, 
+del, dfn, em, img, ins, kbd, q, s, var,
+b, u, i, center, ol, ul, li,
+form, label, legend,   
+article, aside, footer, header, 
+menu, nav, output, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	
+}
+body{
+
+	max-height: auto;
+    max-width: 100%;
+    background-color: #E0E0DB;
+}
+header {
+	
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.menu ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: left;
+	
+}
+.menu li {
+	border-right: 1px solid #fff;
+	background: #E9E8E5;
+}
+
+.menu li:hover {
+	
+	background: rgba(0,0,0,0.0);
+}
+
+.menu li a {
+	display: block;
+	padding: 15px 20px;
+	color: #40403F;
+	font-family: Impact;
+	text-decoration: none;
+	
+}
+
+
+
+.divisor {
+margin:0 auto; 
+max-width: 100%;
+height: auto;
+padding-left: 600px;
+float:left;
+text-align:center;
+box-sizing: border-box;
+}
+
+.pri {
+margin: 0 auto;
+display: flex;
+justify-content: center;
+margin-right:auto;
+margin-left:auto;
+margin-top: 100px;
+float:top;
+max-width: 45%;
+
+}
+.pri h4 {
+
+	font-family: Century Gothic;
+	font-size: 18px;
+	text-align: justify;
+	margin-bottom: 0px;
+	color:#000;
+	padding: 10px;
+	padding-left: 20px;
+	margin-left:0 auto;
+	margin-right:0 auto;
+
+}
+.divisor3 {
+background-color: #f8f1e1;
+margin-top: 50px; 
+width: 100%;
+height: auto;
+padding: 50px;
+float:left;
+text-align:center;
+box-sizing: border-box;
+}
+.divisor3 p {
+font-family: Arial Rounded MT Bold;
+	font-size: 15px;
+	text-align: justify;
+	margin-bottom: 0px;
+	color:#091A55;
+	padding: 10px;
+	margin-left:420px;
+	margin-right:420px;
+}
+.divisor3 .boton {
+  background-color: #6A6965;
+  border-radius: 5px 5px 5px 5px; 
+  color: white;
+  font-family: Arial;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.divisor4 {
+background-color: #D3D3D3;
+margin:0 auto;
+/*margin:5px 5px 10px 10px;*/
+margin-top: 50px; 
+width: 100%;
+height: auto;
+padding: 50px;
+float:left;
+text-align:center;
+box-sizing: border-box;
+}
+.boton {
+  background-color: none;
+  opacity: 0.6;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  padding: 7px 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+.boton h2 {
+
+	font-family: Adobe Gothic Std B;
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 0px;
+	color:#fff;
+	padding: 10px;
+	margin-left:0 auto;
+	margin-right:0 auto;
+}
+.bloque2 {
+background-color: #51C67D;
+position:relative; 
+margin: 20px 0 0 20px;
+width: 50%;
+right: 150px;
+left: 500px;
+height: auto;
+padding: 10px;
+float:left;
+text-align:center;
+box-sizing: border-box;
+}
+.bloque3 {
+background-color: #67CAE0;
+position:relative; 
+margin: 20px 0 0 20px;
+width: 50%;
+right: 150px;
+left: 500px;
+height: auto;
+padding: 10px;
+float:left;
+text-align:center;
+box-sizing: border-box;
+}
+.bloque4 {
+background-color: #F5A1F4;
+position:relative; 
+margin: 20px 0 0 20px;
+width: 50%;
+right: 150px;
+left: 500px;
+height: auto;
+padding: 10px;
+float:left;
+text-align:center;
+box-sizing: border-box;
+}
+.comunicacion {
+background-color: #F2B094;
+margin:0 auto;
+margin-top: 10px; 
+width: 45%;
+height: auto;
+padding: 50px;
+float:left;
+text-align:center;
+box-sizing: border-box;
+}
+.comunicacion h2 {
+	font-family: Century Gothic;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 0px;
+	color:#fff;
+	padding: 10px;
+	margin-left:0 auto;
+	margin-right:0 auto;
+}
+.comunicacion h1 {
+	font-family: Adobe Gothic Std B;
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 0px;
+	color:#fff;
+	font-weight: bold;
+	margin-left:0 auto;
+	margin-right:0 auto;
+}
+.comunicacion .boton {
+  background-color: #F29D78;
+  border-radius: 15px 15px 15px 15px; 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.comunicacion2 {
+background-color:#70CABD;
+margin:0 auto;
+margin-top: 10px; 
+width: 45%;
+height: auto;
+padding: 50px;
+float:left;
+text-align:center;
+box-sizing: border-box;
+}
+.comunicacion2 h2 {
+	font-family: Century Gothic;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 0px;
+	color:#fff;
+	padding: 10px;
+	margin-left:0 auto;
+	margin-right:0 auto;
+}
+.comunicacion2 h1 {
+	font-family: Adobe Gothic Std B;
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 0px;
+	color:#fff;
+	font-weight: bold;
+	margin-left:0 auto;
+	margin-right:0 auto;
+}
+.comunicacion2 .boton {
+  background-color: #4CB5A6;
+  border-radius: 15px 15px 15px 15px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+h1 {
+	font-family: Century Gothic;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 0px;
+	color:#06316C;
+}
+h2 {
+	font-family: Cambria;
+	font-size: 22px;
+	text-align: justify;
+	margin-bottom: 0px;
+	color:#06316C;
+}
+h3  {
+	font-family: Arial;
+	margin-bottom: 0px;
+	font-size:18px;
+	text-align: center;
+	color: #000;
+}
+h4 {
+	font-family: Adobe Gothic Std B;
+	margin-bottom: 5px;
+	font-size:22px;
+	text-align:center;
+	color: #1D128A;
+	text-shadow: 2px 2px #fff;
+	}
+
+h5 {
+	color:#000;
+	font-size: 18px;
+	font-family: Century751 SeBd BT;
+	text-align: justify;
+	margin-bottom: 0px;
+	box-sizing: border-box;
+}
+h6 {
+	
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: 30px;
+	font-size:12px;
+	text-align:center;
+	color: #777777;
+}
+p {
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: 5px;
+	font-size:18px;
+	text-align:justify;
+}
+
+a {
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: 5px;
+	font-size:18px;
+	text-align:justify;
+}
+footer 
+{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top: 100px;
+	float:top;
+	max-width: 45%;
+	padding:40px 50px 20px 20px;
+		
+	}
+
+
+@media (min-width: 800px) and (max-width: 1200px) {
+	
+	.divisor {
+	
+	
+	padding-left: 150px;
+		
+	}
+	
+	.pri .divisor4   {
+		margin: 0 auto;
+display: flex;
+justify-content: center;
+margin-right:auto;
+margin-left:auto;
+margin-top: 50px;
+float:center;
+max-width: 100%;
+
+	}
+
+	.divisor3 p {
+
+	margin-left:50px;
+	margin-right:50px;
+}
+
+	
+	
+	.bloque2 .bloque3 .bloque4 {
+
+	display: flex;
+	margin: 5px 0 0 5px;
+	width: 45%;
+	right: 10px;
+	left: -50px;
+	height: auto;
+	float:left;
+	text-align:center;
+	box-sizing: border-box;
+	}
+
+		.boton {
+  
+  display: inline-block;
+  font-size: 18px;
+  margin: 2px 2px;
+  cursor: pointer;
+
+	
+	
+	h2, h5{font-family: Century751 SeBd BT;
+	font-size: 15px;
+	color:#333333;
+	text-align: justify;
+	box-sizing: border-box;
+	}
+	
+
+	
+
+
+	p {
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: 0px;
+	font-size:14px;
+	text-align:justify;
+	
+	
+}
+
+
+
+a {
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: 5px;
+	font-size:14px;
+	text-align:justify;
+}
+
+
+
+/* diseño para moviles*/
+@media (min-width: 200px) and (max-width: 400px) {
+	
+
+	
+	
+	
+	.divisoralbum {display: none;}
+	
+	
+	/**/
+	
+	#encuadrar { width: 90%;}
+	.divisorVertical {display: none;}
+	.divisor {width: 100%; padding: 5px 20px 5px 20px; margin: 0 auto;}
+	h2, h5{font-family: Century751 SeBd BT;
+	font-size: 12px;
+	text-align: center;
+	box-sizing: border-box;
+	}
+	
+
+	
+
+
+	p {
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: 10px;
+	font-size:12px;
+	text-align:justify;
+	
+	
+}
+
+
+
+a {
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: 10px;
+	font-size:14px;
+	text-align:justify;
+}
+
+
+.pie2 {
+	display: none;
+	
+}
+
+.pie3 {
+	width: 100%;
+	float:left;
+	text-align: center;
+	box-sizing: border-box;
+	
+}
+
+.divisor form {
+	
+	padding-right: 10px;
+	box-sizing: border-box;
+	
+}
+
+.formulario {
+	
+	display: none;
+}
+
+}
+
+
+footer 
+{
+	width:100%;
+	text-align:center;
+		
+	}
+	
+footer	.pie {
+	
+	
+	background-color: #37383B;
+	text-align: center;
+	background-repeat: no-repeat;
+	margin: 0px auto;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	color: 	#C0C0C0;
+	text-shadow: 1px 1px 1px #333;
+	box-sizing: border-box;
+	}
+
+
+}
+
+
+
+
+
+
+}
+

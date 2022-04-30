@@ -1,0 +1,452 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	
+}
+
+
+body{height: 100%;
+width: 100%;
+background-image:url(../imagenes/fondo3.jpg);
+
+
+
+}
+
+#encuadrar {
+	max-width:1900px; 
+	margin:1px auto;
+	text-align: center;
+	box-sizing: border-box;
+	}
+
+	
+header {
+	background: url('../Imagenes/banner.jpg');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	
+	overflow: hidden;
+	border-radius: 0 0 90% 90% / 10%;*/
+	
+	
+}
+header .overlay{
+	width: 90%;
+	height: 90%;
+	padding: 100px;
+	color: #FFF;
+	text-shadow: 2px 2px #000000;
+	box-sizing: border-box;
+	
+}
+
+
+.wrapper {
+	width: 90%;
+	max-width: 1900px;
+	height: 90%;
+	margin: 0 auto;
+	text-align:center;
+	 padding-top: 10px;
+	 box-sizing: border-box;
+	
+	
+}
+
+nav {
+    margin-top: 10px;
+	margin:auto;
+	
+}
+
+nav ol, nav ul {
+	list-style: none;
+}
+
+.centrarMenu{
+	margin: 0 auto 0 auto;
+	width: 75%;
+	text-align:center;
+	box-sizing: border-box;
+	text-shadow: 2px 2px #C7C5C1;
+}
+
+
+#menu-bar {
+  height: 40px;
+  padding: 6px 6px 4px 6px;
+  
+}
+#menu-bar li {
+  padding: 0px 6px 0px 6px;
+  float: left;
+}
+#menu-bar a {
+  color: #FFFFFF;
+  display: block;
+  font-size: 18px;
+  font: impact;
+  padding: 6px 20px 6px 20px;
+  text-decoration: none;
+}
+
+#menu-bar .home a {
+  color: #000000;
+  display: block;
+  background-color:#E6E6E6;
+  font-size: 18px;
+  font: Hobo Std;
+  padding: 10px 40px 10px 20px;
+  border-radius: 20px 20px 20px 20px;
+ 
+   
+}
+
+#menu-bar .active a, #menu-bar li:hover > a {
+  box-shadow: 0 2px 0 rgba(0, 0, 0, .2);
+}
+
+
+
+.divisor {
+
+
+margin:15px auto; 
+max-width: 70%;
+height: auto;
+padding-left: 10px;
+float:left;
+border-radius: 10px 10px 19px 19px;
+text-align:justify;
+box-sizing: border-box;
+}
+.formulario {
+
+
+margin:0px 160px auto; 
+max-width: 40%;
+height: auto;
+padding-left: 10px;
+float:left;
+border-radius: 10px 10px 19px 19px;
+text-align:justify;
+box-sizing: border-box;
+}
+
+.divisor form {
+	
+	padding-left: 10px;
+	box-sizing: border-box;
+	
+}
+
+.divisorVertical {
+background-color:#FF9900;
+margin:15px auto; 
+width: 25%;
+height: 100%;
+padding: 20px;
+float: right;
+border-radius: 19px 19px 19px 19px;
+text-align:justify;
+box-sizing: border-box;
+}
+
+.divisoralbum {
+	
+margin:15px auto; 
+width: 25%;
+
+padding: 20px;
+float: right;
+text-align:center;
+box-sizing: border-box;
+}
+
+.divisorHorizontal {
+	
+background-color: #37383B;
+margin:0 auto; 
+width: 100%;
+height: auto;
+padding: 15px;
+float:left;
+text-align:center;
+box-sizing: border-box;
+}
+
+
+
+.divisorHorizontal img {
+border: 5px solid #ccc;
+float: center;
+margin: 15px;
+box-sizing: border-box;
+
+
+}
+.divisorPaginas {
+	
+background-color: #FF9700;
+margin:5px auto; 
+width: 100%;
+height: auto;
+font: Minion Pro SmBd;
+padding: 20px;
+float:left;
+text-align:center;
+box-sizing: border-box;
+}
+
+.tendencia {
+
+background-color: #C7CCD7;
+margin:5px auto; 
+width: 100%;
+height: auto;
+padding: 15px;
+float:left;
+text-align:center;
+box-sizing: border-box;
+}
+
+.tendencia h3 {
+	font-family: Adobe Gothic Std B;
+	font-size: 20px;
+	margin-bottom: 0px;
+	text-align: center;
+	color: Black;
+}
+
+
+
+h1 {
+	font-family: Impact;
+	font-size: 100px;
+	margin-bottom: 0px;
+}
+h2 {
+	font-family: Century751 SeBd BT;
+	font-size: 25px;
+	margin-bottom: 0px;
+	color:#333333;
+	
+}
+h3  {
+	font-family: Impact;
+	margin-bottom: 0px;
+	font-size:20px;
+	
+}
+
+h5 {
+	color:#566573;
+	font-size: 30px;
+	font-family: Century751 SeBd BT;
+	text-align: center;
+	margin-bottom: 0px;
+	box-sizing: border-box;
+}
+p {
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: 5px;
+	font-size:18px;
+	text-align:justify;
+	
+	
+}
+
+a {
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: 5px;
+	font-size:18px;
+	text-align:justify;
+}
+
+
+
+<style type="text/css">
+<!--
+.Estilo1 {color: #FFFFFF
+	font-family: "Times New Roman", Times, serif;
+font-size:12px;	
+}
+
+a:link
+{
+text-decoration:none;
+
+}
+
+a{
+	
+	color: #D5D8DC;
+	
+}
+a:hover{
+
+  color: #808B96;
+}
+-->
+</style>
+
+footer 
+{
+	width:90%;
+	text-align:center;
+		
+	}
+	
+footer	.pie {
+	
+	
+	background-color: #37383B;
+	text-align: center;
+	background-repeat: no-repeat;
+	margin: 0px auto;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	width: 90%;
+	height: auto;
+	padding: 100px;
+	color: 	#C0C0C0;
+	text-shadow: 1px 1px 1px #333;
+	box-sizing: border-box;
+	}
+	
+.pie2 {
+	width: 30%;
+	float:left;
+	text-align: left;
+	margin-left: 30px auto;
+	box-sizing: border-box;
+	
+	
+}
+
+.pie3 {
+	width: 30%;
+	float:left;
+	text-align: right;
+	margin-left: 30px auto;
+	box-sizing: border-box;
+	
+}
+
+
+
+@media screen and (min-width: 400px) and (max-width: 800px){
+	header { background-color: #37383B; text-align: center; width: 100%;}
+	#encuadrar { width: 90%;}
+	.divisorVertical {display: none;}
+	.divisor {width: 100%; padding: 5px 20px 5px 20px;}
+	h2, h5{font-family: Century751 SeBd BT;
+	font-size: 15px;
+	color:#333333;
+	text-align: center;
+	box-sizing: border-box;
+	}
+	
+		
+	#menu-bar {
+		width: 100%;
+  height: 100px;
+  padding: 6px 6px 4px 6px;
+  
+  
+}
+	#menu-bar li {
+	padding: 0px 6px 0px 6px;
+	float: left;
+}
+	#menu-bar a {
+	color: #FFFFFF;
+	display: block;
+	font-size: 12px;
+	font: impact;
+	padding: 6px 20px 6px 20px;
+	text-decoration: none;
+}
+
+	#menu-bar .home a {
+	color: #000000;
+	display: block;
+	background-color:#E6E6E6;
+	font-size: 14px;
+	font: Hobo Std;
+	padding: 10px 40px 10px 20px;
+	border-radius: 10px 10px 10px 10px;
+    
+}
+
+	#menu-bar .active a, #menu-bar li:hover > a {
+	box-shadow: 0 2px 0 rgba(0, 0, 0, .2);
+}
+
+
+	p {
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: 5px;
+	font-size:14px;
+	text-align:justify;
+	
+	
+}
+
+
+
+a {
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: 5px;
+	font-size:14px;
+	text-align:justify;
+}
+
+
+.pie2 {
+	display: none;
+	
+}
+
+.pie3 {
+	width: 100%;
+	float:left;
+	text-align: center;
+	box-sizing: border-box;
+	
+}
+
+.divisor form {
+	
+	padding-right: 10px;
+	box-sizing: border-box;
+	
+}
+
+.formulario {
+	
+	display: none;
+}
+
+}}
